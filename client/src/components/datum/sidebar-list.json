@@ -1,0 +1,40 @@
+[ 
+    [
+        { "icon": "icon-profile-1", "title": "登录注册", "children": [
+            {"title": "注册一个用户", "href": "/register"},
+            {"title": "用户登录", "href": "/login"},
+            {"title": "home页", "href": "/home"}
+        ]},
+        { "icon": "icon-cogs", "title": "一级1", "href": "/home"},
+        {
+            "icon": "icon-chart-scatter-plot",
+            "title": "一级菜单",
+            "children": [
+                { "title": "二级A", "icon": "icon-bell" },
+                {
+                    "title": "二级B", "icon": "icon-bell",
+                    "children": [
+                        { "title": "三级B-1" },
+                        { "title": "三级B-2" }
+                    ]
+                }
+            ]
+        }
+    ],
+    [{ "icon": "icon-search", "title": "class one 3", "children": [{ "title": "二级C"}, { "title": "二级D" }] }],
+    [{
+        "title": "class one 4",
+        "children": [{
+            "title": "二级D",
+            "children": [{
+                "title": "三级",
+                "children": [{
+                    "title": "四级",
+                    "children": [
+                        { "title": "五级"}
+                    ]
+                }]
+            }]
+        }]
+    }]
+]
